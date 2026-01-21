@@ -47,12 +47,10 @@ class Planta(ABC):
     @property
     @abstractmethod
     def grupo(self):
-        """Retorna o nome do grupo da planta (ex: Angiosperma)"""
         pass
 
     @abstractmethod
     def descricao_reprodutiva(self):
-        """Método polimórfico: Cada grupo deve explicar como se reproduz"""
         pass
 
     def __str__(self):
